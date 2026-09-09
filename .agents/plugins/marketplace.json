@@ -1,0 +1,20 @@
+{
+  "name": "splits-plugins",
+  "interface": {
+    "displayName": "Splits Plugins"
+  },
+  "plugins": [
+    {
+      "name": "splits",
+      "source": {
+        "source": "local",
+        "path": "./plugins/splits"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
