@@ -1,9 +1,9 @@
 {
   "name": "splits",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260909202631",
   "homepage": "https://splits.coach",
   "repository": "https://github.com/ccschmitz/splits-plugin",
-  "description": "Review your running plan, adjust workouts and races, and log completed runs in Splits.",
+  "description": "Review your running plan, adjust workouts and races, and sync or log completed runs in Splits.",
   "author": {
     "name": "Chris Schmitz",
     "url": "https://splits.coach"
@@ -12,10 +12,13 @@
   "interface": {
     "displayName": "Splits",
     "shortDescription": "Your running plan, with a coach in the conversation.",
-    "longDescription": "Connect your Splits account to review upcoming training and completed workouts, adjust sessions, manage goal races and tune-ups, save complete training plans, import runs, and restore earlier plan versions. Includes coaching workflows that keep your saved plan at the center of the conversation.",
+    "longDescription": "Connect your Splits account to review upcoming training and completed workouts, adjust sessions, manage goal races and tune-ups, sync COROS runs, import supplied activities, and restore earlier plan versions. Includes coaching workflows that keep your saved plan at the center of the conversation.",
     "developerName": "Splits",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://splits.coach",
     "brandColor": "#FF4B20",
     "composerIcon": "./assets/icon.png",
@@ -23,7 +26,7 @@
     "defaultPrompt": [
       "Review my Splits training and the week ahead.",
       "Help me adjust my Splits plan around my schedule.",
-      "Log a completed run in Splits."
+      "Sync my recent COROS runs into Splits."
     ]
   },
   "mcpServers": "./.mcp.json"
