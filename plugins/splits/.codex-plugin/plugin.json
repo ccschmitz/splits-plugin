@@ -1,6 +1,6 @@
 {
   "name": "splits",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260909202143",
   "homepage": "https://splits.coach",
   "repository": "https://github.com/ccschmitz/splits-plugin",
   "description": "Review your running plan, adjust workouts and races, and sync or log completed runs in Splits.",
@@ -15,7 +15,10 @@
     "longDescription": "Connect your Splits account to review upcoming training and completed workouts, adjust sessions, manage goal races and tune-ups, sync COROS runs, import supplied activities, and restore earlier plan versions. Includes coaching workflows that keep your saved plan at the center of the conversation.",
     "developerName": "Splits",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://splits.coach",
     "brandColor": "#FF4B20",
     "composerIcon": "./assets/icon.png",
