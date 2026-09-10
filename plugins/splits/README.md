@@ -23,6 +23,8 @@ The server exposes `get_plan`, `get_sync_context`, `edit_plan`, `push_plan`, `ad
 
 Plan edits are real account writes. Specific athlete instructions can be applied directly; recommendations need acceptance. Race changes support preview. Full replacement requires the saved plan's Structure fingerprint. Detailed activity-history/recovery reads, deterministic plan generation, and direct structured-workout delivery to a watch are not exposed by these tools.
 
+Secondary-provider imports ask for approval in the conversation, keep the primary source unchanged, and skip equivalent primary-source runs. There is no persistent gap-fill setting. This workflow requires the Splits server's import-approval contract.
+
 ## Local development
 
 The maintained source is `plugins/splits` in the [splits-plugin repository](https://github.com/ccschmitz/splits-plugin). The repository's marketplace is `.agents/plugins/marketplace.json` (`splits-plugins`).
